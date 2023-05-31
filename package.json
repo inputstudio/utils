@@ -4,6 +4,15 @@
 	"description": "Generic utility functions used at Input Studio",
 	"author": "Input Studio <hello@inputstudio.co> (https://inputstudio.co)",
 	"license": "MIT",
+	"keywords": [
+		"typescript",
+		"collection",
+		"function",
+		"object",
+		"string",
+		"utils"
+	],
+	"repository": "github:inputstudio/utils",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
