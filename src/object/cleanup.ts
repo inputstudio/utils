@@ -8,7 +8,7 @@
 export function cleanup(obj: Object, properties: Array<string>): Object {
   const newObject = obj;
 
-  properties.forEach((property) => obj[property as keyof typeof obj]);
+  properties.forEach((property) => delete obj[property as keyof typeof obj]);
 
   return newObject;
 }
