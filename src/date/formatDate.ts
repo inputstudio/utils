@@ -6,7 +6,7 @@
  * @param {boolean} inputField - Boolean to check whether the new date will be used as an input and stored in a database
  * @param {boolean} displayTime - Boolean to display the time with the new formatted date
  *
- * @return {string} formatted date
+ * @return {string} formattedDate
  */
 export function formatDate(
   dateString: string,
