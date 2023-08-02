@@ -7,7 +7,7 @@
  *
  * @return {string} secret
  */
-export function secret(value: string, char: string = '*', nbChars: number = 1, from: string = 'start'): string {
+export function secret(value: string, char: string = '*', nbChars: number = 1, from: 'start' | 'end' = 'start'): string {
   if (!value || value.length < 1) {
     throw new Error('The string value should have a least one character');
   }
