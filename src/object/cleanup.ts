@@ -6,9 +6,9 @@
  * @returns {Object} The new object
  */
 export function cleanup(obj: Object, properties: Array<string>): Object {
-  const newObject = obj;
+  const newObject = structuredClone(obj);
 
-  properties.forEach((property) => delete obj[property as keyof typeof obj]);
+  properties.forEach((property) => delete newObject[property as keyof typeof obj]);
 
   return newObject;
 }
