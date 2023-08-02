@@ -16,9 +16,12 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "rm -rf dist/ && tsup src/index.ts --format cjs,esm --dts",
     "release": "yarn build && changeset publish",
     "lint": "tsc",
     "format": "prettier --ignore-path .gitignore --write ."
