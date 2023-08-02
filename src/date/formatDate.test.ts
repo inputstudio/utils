@@ -25,7 +25,14 @@ test('formatDate function should format date without time', () => {
 
 test('formatDate function should format date with time', () => {
   const dateString = '2022-01-01T00:00:00.000Z';
-  const expected = '01/01/2022 01:00:00';
+  const expected = '01/01/2022 00:00:00';
+  const actual = formatDate(dateString, 'fr-FR', true, false);
+  expect(actual).toBe(expected);
+});
+
+test('formatDate function should format date without timezone', () => {
+  const dateString = '2022-01-01T00:00:00.000Z';
+  const expected = '2022-01-01 00:00:00';
   const actual = formatDate(dateString, 'fr-FR', true, true);
   expect(actual).toBe(expected);
 });
