@@ -54,6 +54,7 @@ Quick guide to release a new version of the package:
 yarn changeset # Create a new changeset
 yarn changeset version # Bump the package version
 ```
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).

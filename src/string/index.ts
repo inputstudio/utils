@@ -1,1 +1,1 @@
-export { secret } from "./secret";
+export { secret } from './secret';
