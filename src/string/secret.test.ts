@@ -28,7 +28,7 @@ test('should throw an error if the char length is greater than 1', () => {
   const value = 'password123';
   const char = '**';
   const expectedError = new Error('The char should be only one character');
-  
+
   expect(() => secret(value, char)).toThrow(expectedError);
 });
 
