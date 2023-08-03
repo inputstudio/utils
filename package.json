@@ -1,7 +1,7 @@
 {
   "name": "@inputstudio/utils",
   "version": "0.1.1",
-  "description": "Generic utility functions used at Input Studio",
+  "description": "Utility functions used at Input Studio",
   "author": "Input Studio <hello@inputstudio.co> (https://inputstudio.co)",
   "license": "MIT",
   "keywords": [
