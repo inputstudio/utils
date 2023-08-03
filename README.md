@@ -1,6 +1,6 @@
 # utils
 
-[![Test](https://github.com/inputstudio/utils/actions/workflows/test.yml/badge.svg)](https://github.com/inputstudio/utils/actions/workflows/test.yml)
+[![CI](https://github.com/inputstudio/utils/actions/workflows/ci.yml/badge.svg)](https://github.com/inputstudio/utils/actions/workflows/test.yml)
 ![npm (scoped)](https://img.shields.io/npm/v/@inputstudio/utils)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/%40inputstudio%2Futils)
 ![GitHub](https://img.shields.io/github/license/inputstudio/utils)
