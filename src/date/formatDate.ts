@@ -3,15 +3,15 @@
  *
  * @param {string} dateString - The date to format
  * @param {string} locale - The local code which will be used to format the date
- * @param {boolean} inputField - Boolean to check whether the new date will be used as an input and stored in a database
  * @param {boolean} displayTime - Boolean to display the time with the new formatted date
+ * @param {boolean} inputField - Boolean to check whether the new date will be used as an input for a database (timestamps without timezone)
  *
  * @return {string} formattedDate
  */
 export function formatDate(
   dateString: string,
   locale: string = 'fr-FR',
-  displayTime: boolean = true,
+  displayTime: boolean = false,
   inputField: boolean = false
 ): string {
   if (!dateString) {

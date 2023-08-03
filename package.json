@@ -1,6 +1,6 @@
 {
   "name": "@inputstudio/utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generic utility functions used at Input Studio",
   "author": "Input Studio <hello@inputstudio.co> (https://inputstudio.co)",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "/dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest run",
     "build": "rm -rf dist/ && tsup src/index.ts --format cjs,esm --dts",
     "release": "yarn build && changeset publish",
     "lint": "tsc",
@@ -30,6 +30,7 @@
     "@changesets/cli": "^2.26.1",
     "prettier": "^2.8.8",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vitest": "^0.34.1"
   }
 }

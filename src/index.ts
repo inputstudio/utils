@@ -1,4 +1,4 @@
 export * from './object';
 export * from './date';
-export * from './currency/currencyFormat';
-export * from './string/secret';
+export * from './currency';
+export * from './string';
